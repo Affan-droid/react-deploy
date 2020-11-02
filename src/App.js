@@ -23,7 +23,7 @@ class App extends Component {
     return (
       <div className="todo-app container">
         <image src={image} alt="image" />
-        <h1 className="center blue-text">Affan Store</h1>
+        <h1 className="center blue-text">Affan`s To Do List</h1>
         <Todos todo={this.state.todo} deleteTodo={this.deleteTodo} />
       </div>
     );
