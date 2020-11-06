@@ -33,6 +33,7 @@ class App extends Component {
       <div className="todo-app container">
         <image src={image} alt="image" />
         <h1 className="center blue-text">Affan`s To Do List</h1>
+        <h3  className="blue-text text-darken-2">Add or delete the to do list</h3>
         <Todos todo={this.state.todo} deleteTodo={this.deleteTodo} />
         <AddForm Addtodo={this.Addtodo}/>
       </div>
