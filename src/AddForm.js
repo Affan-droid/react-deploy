@@ -23,7 +23,7 @@ class AddForm extends Component {
         return(
             <div>
                 <form onSubmit={this.handleSubmit}>
-                    <label>Add new TOdo: </label>
+                    <label>Add new To do: </label>
                     <input type ="text" onChange={this.handleChange} />
                 </form>           
             </div>
