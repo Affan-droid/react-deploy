@@ -13,5 +13,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.6.8 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "react-assg" #Must be unique in Heroku
-          heroku_email: "u2017230@giki.edu.pk"
+          heroku_app_name: "affan-todolist-app" #Must be unique in Heroku
+          heroku_email: "affanraog11@gmail.com"
